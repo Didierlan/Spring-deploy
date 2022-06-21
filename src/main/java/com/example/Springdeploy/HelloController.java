@@ -19,4 +19,10 @@ public class HelloController {
 
         return "Hola mundo que tal, hasta luego chavalas!!";
     }
+
+    @GetMapping("/")
+    public String inicio(){
+        return "HOLA estoy funcionando";
+    }
 }
+
